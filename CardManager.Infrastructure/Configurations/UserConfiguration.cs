@@ -23,6 +23,10 @@ namespace CardManager.Infrastructure.Configurations
             builder
                 .Property(u => u.PasswordHash)
                 .IsRequired();
+
+            builder
+                .Property(u => u.IsAdmin)
+                .IsRequired();
         }
     }
 }

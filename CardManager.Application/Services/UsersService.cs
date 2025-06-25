@@ -27,7 +27,8 @@ namespace CardManager.Application.Services
             {
                 Name = user.Name,
                 Email = user.Email,
-                PasswordHash = _passwordHasher.Generate(user.Password)
+                PasswordHash = _passwordHasher.Generate(user.Password),
+                IsAdmin = user.IsAdmin,
             }, cancellationToken);
         }
 

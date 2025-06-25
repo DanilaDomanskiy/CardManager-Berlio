@@ -17,6 +17,7 @@ namespace CardManager.Api.Controllers
             _usersService = usersService;
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> RegisterUser([FromBody] RegisterUserRequest model, CancellationToken cancellationToken)
         {
@@ -24,7 +25,8 @@ namespace CardManager.Api.Controllers
             {
                 Name = model.Name,
                 Email = model.Email,
-                Password = model.Password
+                Password = model.Password,
+                IsAdmin = model.IsAdmin,
             }, cancellationToken);
 
             return userId is null ? StatusCode(409) : Ok(userId);
@@ -62,6 +64,13 @@ namespace CardManager.Api.Controllers
             }
 
             return NoContent();
+        }
+
+        [HttpGet("isAdmin")]
+        public IActionResult IsAdmin()
+        {
+            var isAdmin = User.IsInRole("Admin");
+            return Ok(new { isAdmin });
         }
     }
 }

@@ -19,6 +19,7 @@ namespace CardManager.Api.Controllers
             _cardRecordsService = cardRecordsService;
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Upload(IFormFile file, CancellationToken cancellationToken)
         {
