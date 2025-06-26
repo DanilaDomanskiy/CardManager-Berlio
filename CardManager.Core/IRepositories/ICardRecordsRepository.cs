@@ -6,7 +6,7 @@ namespace CardManager.Core.IRepositories
     {
         Task<IEnumerable<(CardRecord Record, bool IsAdded)>> CreateRangeAsync(IEnumerable<CardRecord> cardRecords, CancellationToken cancellationToken);
 
-        Task<IEnumerable<CardRecord>> ReadCardRecordsAsync(
+        Task<(IEnumerable<CardRecord> CardRecords, int RecordsCount)> ReadCardRecordsAsync(
             int page,
             int pageSize,
             CancellationToken cancellationToken,

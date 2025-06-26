@@ -52,7 +52,7 @@ namespace CardManager.Infrastructure.Repositories
             return result;
         }
 
-        public async Task<IEnumerable<CardRecord>> ReadCardRecordsAsync(
+        public async Task<(IEnumerable<CardRecord> CardRecords, int RecordsCount)> ReadCardRecordsAsync(
             int page,
             int pageSize,
             CancellationToken cancellationToken,
@@ -75,12 +75,15 @@ namespace CardManager.Infrastructure.Repositories
             if (endCreationDate.HasValue)
                 query = query.Where(r => r.Created <= endCreationDate);
 
-            return await query
+            var totalRecordsCount = await query.CountAsync(cancellationToken);
+
+            var records = await query
                 .OrderBy(r => r.Id)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
-                .Include(r => r.Creator)
                 .ToListAsync(cancellationToken);
+
+            return (records, totalRecordsCount);
         }
     }
 }

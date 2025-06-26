@@ -61,21 +61,25 @@ namespace CardManager.Api.Controllers
                 startCreationDate,
                 endCreationDate);
 
-            return Ok(result.Select(r => new CardRecordResponse
+            return Ok(new CardRecordsResponse
             {
-                Id = r.Id,
-                CardNumber = r.CardNumber,
-                Track1 = r.Track1,
-                Track2 = r.Track2,
-                Track3 = r.Track3,
-                Created = r.Created,
-                Creator = new UserResponse
+                CardRecords = result.CardRecords.Select(r => new CardRecord
                 {
-                    Id = r.Creator.Id,
-                    Name = r.Creator.Name,
-                    Email = r.Creator.Email
-                }
-            }).ToList());
+                    Id = r.Id,
+                    CardNumber = r.CardNumber,
+                    Track1 = r.Track1,
+                    Track2 = r.Track2,
+                    Track3 = r.Track3,
+                    Created = r.Created,
+                    Creator = new UserResponse
+                    {
+                        Id = r.Creator.Id,
+                        Name = r.Creator.Name,
+                        Email = r.Creator.Email
+                    }
+                }),
+                RecordsCount = result.RecordsCount,
+            });
         }
     }
 }

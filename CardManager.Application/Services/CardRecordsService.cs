@@ -75,7 +75,7 @@ namespace CardManager.Application.Services
             }).ToList();
         }
 
-        public async Task<IEnumerable<CardRecordDto>> GetAsync(
+        public async Task<CardRecordsDto> GetAsync(
             int page,
             int pageSize,
             CancellationToken cancellationToken,
@@ -93,21 +93,25 @@ namespace CardManager.Application.Services
                 startCreationDate,
                 endCreationDate);
 
-            return records.Select(r => new CardRecordDto
+            return new CardRecordsDto
             {
-                Id = r.Id,
-                CardNumber = r.CardNumber,
-                Track1 = r.Track1,
-                Track2 = r.Track2,
-                Track3 = r.Track3,
-                Created = r.Created,
-                Creator = new UserDto
+                CardRecords = records.CardRecords.Select(r => new CardRecordDto
                 {
-                    Id = r.Creator.Id,
-                    Name = r.Creator.Name,
-                    Email = r.Creator.Email
-                }
-            }).ToList();
+                    Id = r.Id,
+                    CardNumber = r.CardNumber,
+                    Track1 = r.Track1,
+                    Track2 = r.Track2,
+                    Track3 = r.Track3,
+                    Created = r.Created,
+                    Creator = new UserDto
+                    {
+                        Id = r.Creator.Id,
+                        Name = r.Creator.Name,
+                        Email = r.Creator.Email
+                    }
+                }),
+                RecordsCount = records.RecordsCount,
+            };
         }
     }
 }

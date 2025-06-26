@@ -2,7 +2,7 @@
 
 namespace CardManager.Api.Contracts.CardRecord
 {
-    public class CardRecordResponse
+    public class CardRecord
     {
         public int Id { get; set; }
         public string CardNumber { get; set; }

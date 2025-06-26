@@ -7,7 +7,7 @@ namespace CardManager.Application.Services.Interfaces
     {
         Task<IEnumerable<AddedCardRecordDto>> AddRangeFromFileAsync(IFormFile file, Guid currentUserId, CancellationToken cancellationToken);
 
-        Task<IEnumerable<CardRecordDto>> GetAsync(
+        Task<CardRecordsDto> GetAsync(
             int page,
             int pageSize,
             CancellationToken cancellationToken,
