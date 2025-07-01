@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CardManager.Api.props" />
+</Project>
