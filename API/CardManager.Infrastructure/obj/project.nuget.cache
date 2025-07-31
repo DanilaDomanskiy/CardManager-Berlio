@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8UR+DFacyj0=",
+  "dgSpecHash": "+sbi/B36/fY=",
   "success": true,
-  "projectFilePath": "D:\\CardManager\\API\\CardManager.Infrastructure\\CardManager.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Infrastructure\\CardManager.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Данила\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Данила\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

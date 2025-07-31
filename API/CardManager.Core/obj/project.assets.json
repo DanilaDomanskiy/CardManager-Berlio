@@ -188,11 +188,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CardManager\\API\\CardManager.Core\\CardManager.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Core\\CardManager.Core.csproj",
       "projectName": "CardManager.Core",
-      "projectPath": "D:\\CardManager\\API\\CardManager.Core\\CardManager.Core.csproj",
+      "projectPath": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Core\\CardManager.Core.csproj",
       "packagesPath": "C:\\Users\\Данила\\.nuget\\packages\\",
-      "outputPath": "D:\\CardManager\\API\\CardManager.Core\\obj\\",
+      "outputPath": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Данила\\AppData\\Roaming\\NuGet\\NuGet.Config",

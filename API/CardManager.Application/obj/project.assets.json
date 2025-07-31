@@ -357,11 +357,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CardManager\\API\\CardManager.Application\\CardManager.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Application\\CardManager.Application.csproj",
       "projectName": "CardManager.Application",
-      "projectPath": "D:\\CardManager\\API\\CardManager.Application\\CardManager.Application.csproj",
+      "projectPath": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Application\\CardManager.Application.csproj",
       "packagesPath": "C:\\Users\\Данила\\.nuget\\packages\\",
-      "outputPath": "D:\\CardManager\\API\\CardManager.Application\\obj\\",
+      "outputPath": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Данила\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -379,8 +379,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\CardManager\\API\\CardManager.Core\\CardManager.Core.csproj": {
-              "projectPath": "D:\\CardManager\\API\\CardManager.Core\\CardManager.Core.csproj"
+            "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Core\\CardManager.Core.csproj": {
+              "projectPath": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Core\\CardManager.Core.csproj"
             }
           }
         }

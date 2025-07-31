@@ -8,7 +8,6 @@ using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
 using System.Reflection;
 
 namespace CardManager.Api
@@ -64,30 +63,7 @@ namespace CardManager.Api
             builder.Services.AddControllers();
 
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen(c =>
-            {
-                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-                {
-                    Description = "JWT Authorization header using the Bearer scheme",
-                    Type = SecuritySchemeType.Http,
-                    Scheme = "bearer"
-                });
-
-                c.AddSecurityRequirement(new OpenApiSecurityRequirement
-                {
-                    {
-                        new OpenApiSecurityScheme
-                        {
-                            Reference = new OpenApiReference
-                            {
-                                Type = ReferenceType.SecurityScheme,
-                                Id = "Bearer"
-                            }
-                        },
-                        Array.Empty<string>()
-                    }
-                });
-            });
+            builder.Services.AddSwaggerGen();
 
             builder.Services.AddCors(options =>
             {
@@ -102,6 +78,9 @@ namespace CardManager.Api
             });
 
             var app = builder.Build();
+
+            app.UseStaticFiles();
+            app.MapFallbackToFile("index.html");
 
             app.UseCors();
 

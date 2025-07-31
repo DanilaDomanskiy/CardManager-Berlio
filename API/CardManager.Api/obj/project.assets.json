@@ -5007,11 +5007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CardManager\\API\\CardManager.Api\\CardManager.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\CardManager.Api.csproj",
       "projectName": "CardManager.Api",
-      "projectPath": "D:\\CardManager\\API\\CardManager.Api\\CardManager.Api.csproj",
+      "projectPath": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\CardManager.Api.csproj",
       "packagesPath": "C:\\Users\\Данила\\.nuget\\packages\\",
-      "outputPath": "D:\\CardManager\\API\\CardManager.Api\\obj\\",
+      "outputPath": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Данила\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5029,14 +5029,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\CardManager\\API\\CardManager.Application\\CardManager.Application.csproj": {
-              "projectPath": "D:\\CardManager\\API\\CardManager.Application\\CardManager.Application.csproj"
+            "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Application\\CardManager.Application.csproj": {
+              "projectPath": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Application\\CardManager.Application.csproj"
             },
-            "D:\\CardManager\\API\\CardManager.Core\\CardManager.Core.csproj": {
-              "projectPath": "D:\\CardManager\\API\\CardManager.Core\\CardManager.Core.csproj"
+            "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Core\\CardManager.Core.csproj": {
+              "projectPath": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Core\\CardManager.Core.csproj"
             },
-            "D:\\CardManager\\API\\CardManager.Infrastructure\\CardManager.Infrastructure.csproj": {
-              "projectPath": "D:\\CardManager\\API\\CardManager.Infrastructure\\CardManager.Infrastructure.csproj"
+            "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Infrastructure\\CardManager.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Infrastructure\\CardManager.Infrastructure.csproj"
             }
           }
         }

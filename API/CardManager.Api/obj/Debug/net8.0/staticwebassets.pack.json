@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\wwwroot\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\asset-manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\wwwroot\\logo192.png",
+      "PackagePath": "staticwebassets\\logo192.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\wwwroot\\logo512.png",
+      "PackagePath": "staticwebassets\\logo512.png"
+    },
+    {
+      "Id": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\wwwroot\\static\\css\\main.8a685450.css",
+      "PackagePath": "staticwebassets\\static\\css\\main.8a685450.css"
+    },
+    {
+      "Id": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\wwwroot\\static\\css\\main.8a685450.css.map",
+      "PackagePath": "staticwebassets\\static\\css\\main.8a685450.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\wwwroot\\static\\js\\main.7d74d0cf.js",
+      "PackagePath": "staticwebassets\\static\\js\\main.7d74d0cf.js"
+    },
+    {
+      "Id": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\wwwroot\\static\\js\\main.7d74d0cf.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\static\\js\\main.7d74d0cf.js.LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Данила\\Desktop\\CardManager-Berlio\\API\\CardManager.Api\\wwwroot\\static\\js\\main.7d74d0cf.js.map",
+      "PackagePath": "staticwebassets\\static\\js\\main.7d74d0cf.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CardManager.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CardManager.Api.props",
+      "PackagePath": "build\\CardManager.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CardManager.Api.props",
+      "PackagePath": "buildMultiTargeting\\CardManager.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CardManager.Api.props",
+      "PackagePath": "buildTransitive\\CardManager.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

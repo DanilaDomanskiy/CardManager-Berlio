@@ -23,3 +23,16 @@ D:\CardManager\API\CardManager.Core\obj\Debug\net8.0\refint\CardManager.Core.dll
 D:\CardManager\API\CardManager.Core\obj\Debug\net8.0\CardManager.Core.pdb
 D:\CardManager\API\CardManager.Core\obj\Debug\net8.0\ref\CardManager.Core.dll
 D:\CardManager\API\CardManager.Core\obj\Debug\net8.0\CardManager.Core.sourcelink.json
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\bin\Debug\net8.0\CardManager.Core.deps.json
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\bin\Debug\net8.0\CardManager.Core.dll
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\bin\Debug\net8.0\CardManager.Core.pdb
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\obj\Debug\net8.0\CardManager.Core.csproj.AssemblyReference.cache
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\obj\Debug\net8.0\CardManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\obj\Debug\net8.0\CardManager.Core.AssemblyInfoInputs.cache
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\obj\Debug\net8.0\CardManager.Core.AssemblyInfo.cs
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\obj\Debug\net8.0\CardManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\obj\Debug\net8.0\CardManager.Core.sourcelink.json
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\obj\Debug\net8.0\CardManager.Core.dll
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\obj\Debug\net8.0\refint\CardManager.Core.dll
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\obj\Debug\net8.0\CardManager.Core.pdb
+C:\Users\Данила\Desktop\CardManager-Berlio\API\CardManager.Core\obj\Debug\net8.0\ref\CardManager.Core.dll
